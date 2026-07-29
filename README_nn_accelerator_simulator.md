@@ -100,6 +100,4 @@ times = [accelerator_with_mac_limit(A, B, mac_units=m)[1] for m in mac_units_lis
 - Parameterize and log results (matrix size, MAC units, time) to a table/CSV for easier comparison across many configurations.
 - Add unit tests for `read_matrix_from_file` and `cpu_matrix_multiply` to guard against indexing bugs (the notebook already fixes one such bug for `read_matrix_from_file` inline — worth formalizing with a test).
 
-## License
 
-Add your preferred license here (e.g., MIT).
